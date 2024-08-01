@@ -1,0 +1,23 @@
+{
+  "name": "@codica/code",
+  "version": "1.0.0",
+  "description": "paquete para brain games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoHL7/frontend-project-98.git"
+  },
+  "author": "Diego Huincho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoHL7/frontend-project-98/issues"
+  },
+  "homepage": "https://github.com/DiegoHL7/frontend-project-98#readme",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
