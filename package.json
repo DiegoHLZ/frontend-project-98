@@ -1,6 +1,6 @@
 {
-  "name": "@codica/code",
-  "version": "1.0.0",
+  "name": "brain-games-diego",
+  "version": "1.0.1",
   "description": "paquete para brain games",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,9 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
-  }
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "private": false
 }
