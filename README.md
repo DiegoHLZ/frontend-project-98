@@ -8,4 +8,10 @@
 
 ## Ejemplo de Uso
 
+### Verificación de paridad
 [![asciicast](https://asciinema.org/a/LjvYJ0vovcCOTfQYdjpjKlGDi.svg)](https://asciinema.org/a/LjvYJ0vovcCOTfQYdjpjKlGDi)
+
+### Calculadora
+[![asciicast](https://asciinema.org/a/QGaomI9i9WfqrHzRxrpPlKCwg.svg)](https://asciinema.org/a/QGaomI9i9WfqrHzRxrpPlKCwg)
+
+

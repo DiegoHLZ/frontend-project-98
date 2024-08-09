@@ -4,7 +4,8 @@
   "description": "paquete para brain games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "calc": "node bin/brain-calc.mjs"
   },
   "repository": {
     "type": "git",
