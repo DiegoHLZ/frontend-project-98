@@ -19,3 +19,6 @@
 
 ### Progresión aritmética
 [![asciicast](https://asciinema.org/a/BwRoXgxnhG4SPrWbusnpiOocZ.svg)](https://asciinema.org/a/BwRoXgxnhG4SPrWbusnpiOocZ)
+
+### ¿Es primo?
+[![asciicast](https://asciinema.org/a/YAXT8F256H4ndghQUKtj9t7h4.svg)](https://asciinema.org/a/YAXT8F256H4ndghQUKtj9t7h4)
