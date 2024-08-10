@@ -14,4 +14,5 @@
 ### Calculadora
 [![asciicast](https://asciinema.org/a/QGaomI9i9WfqrHzRxrpPlKCwg.svg)](https://asciinema.org/a/QGaomI9i9WfqrHzRxrpPlKCwg)
 
-
+### Máximo común divisor (MCD)
+[![asciicast](https://asciinema.org/a/LbXH7eDks0HuKIIV6eyHx5yfm.svg)](https://asciinema.org/a/LbXH7eDks0HuKIIV6eyHx5yfm)
