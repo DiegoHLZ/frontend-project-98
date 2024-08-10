@@ -16,3 +16,6 @@
 
 ### Máximo común divisor (MCD)
 [![asciicast](https://asciinema.org/a/LbXH7eDks0HuKIIV6eyHx5yfm.svg)](https://asciinema.org/a/LbXH7eDks0HuKIIV6eyHx5yfm)
+
+### Progresión aritmética
+[![asciicast](https://asciinema.org/a/BwRoXgxnhG4SPrWbusnpiOocZ.svg)](https://asciinema.org/a/BwRoXgxnhG4SPrWbusnpiOocZ)
