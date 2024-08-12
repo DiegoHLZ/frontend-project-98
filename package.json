@@ -1,5 +1,5 @@
 {
-  "name": "brain-games-diego",
+  "name": "@hexlet/code",
   "version": "1.0.1",
   "description": "paquete para brain games",
   "main": "index.js",
