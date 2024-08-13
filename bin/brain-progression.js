@@ -18,7 +18,7 @@ const playGame = () => {
 
   console.log('¿Qué número falta en la progresión?');
 
-  //Número de preguntas que deseas hacer
+  // Número de preguntas que deseas hacer
   const rounds = 3;
 
   for (let i = 0; i < rounds; i += 1) {
