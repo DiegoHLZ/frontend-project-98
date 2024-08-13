@@ -4,8 +4,7 @@
   "description": "paquete para brain games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "calc": "node bin/brain-calc.mjs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,8 @@
     "brain-even": "bin/brain-even.js",
     "brain-gcd": "./bin/brain-gcd.js",
     "brain-progression": "./bin/brain-progression.js",
-    "brain-prime": "./bin/brain-prime.js"
+    "brain-prime": "./bin/brain-prime.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
