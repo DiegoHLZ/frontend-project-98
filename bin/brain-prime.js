@@ -21,7 +21,7 @@ const playGame = () => {
   // Puedes configurar el número de preguntas que deseas hacer
   const rounds = 3;
 
-  for (let i = 0; i < rounds; i++) {
+  for (let i = 0; i < rounds; i += 1) {
     const num = Math.floor(Math.random() * 100) + 1;
 
     console.log(`Pregunta: ${num}`);
