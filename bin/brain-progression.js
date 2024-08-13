@@ -18,10 +18,10 @@ const playGame = () => {
 
   console.log('¿Qué número falta en la progresión?');
 
-  // Puedes configurar el número de preguntas que deseas hacer
+  //Número de preguntas que deseas hacer
   const rounds = 3;
 
-  for (let i = 0; i < rounds; i++) {
+  for (let i = 0; i < rounds; i += 1) {
     const start = Math.floor(Math.random() * 10) + 1;
     const step = Math.floor(Math.random() * 5) + 1;
     const length = Math.floor(Math.random() * 6) + 5; // Longitud entre 5 y 10

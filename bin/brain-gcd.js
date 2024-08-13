@@ -3,10 +3,12 @@ import readlineSync from 'readline-sync';
 
 // Función para calcular el MCD utilizando el algoritmo de Euclides
 const gcd = (a, b) => {
-  while (b !== 0) {
-    [a, b] = [b, a % b];
+  let x = a;
+  let y = b;
+  while (y !== 0) {
+    [x, y] = [y, x % y];
   }
-  return a;
+  return x;
 };
 
 // Función principal del juego
@@ -17,7 +19,7 @@ const playGame = () => {
 
   console.log('Encuentra el máximo común divisor de los números dados.');
 
-  // Puedes configurar el número de preguntas que deseas hacer
+  // Número de preguntas que deseas hacer
   const rounds = 3;
 
   for (let i = 0; i < rounds; i += 1) {

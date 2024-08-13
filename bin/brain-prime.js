@@ -4,7 +4,7 @@ import readlineSync from 'readline-sync';
 // Función para verificar si un número es primo
 const isPrime = (num) => {
   if (num < 2) return false;
-  for (let i = 2; i <= Math.sqrt(num); i++) {
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
     if (num % i === 0) return false;
   }
   return true;
@@ -18,7 +18,7 @@ const playGame = () => {
 
   console.log('Responde "yes" si el número dado es primo. De lo contrario, responde "no".');
 
-  // Puedes configurar el número de preguntas que deseas hacer
+  // Número de preguntas que deseas hacer
   const rounds = 3;
 
   for (let i = 0; i < rounds; i += 1) {
