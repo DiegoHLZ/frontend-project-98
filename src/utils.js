@@ -17,7 +17,7 @@ export function getUserAnswer(questionMessage, questionValue, isNumberAnswer = f
 export function checkAnswer(userAnswer, correctAnswer, userName) {
   if (userAnswer !== correctAnswer) {
     console.log(`'${userAnswer}' es incorrecto. La respuesta correcta era '${correctAnswer}'.`);
-    console.log(`¡Inténtalo de nuevo, ${userName}!`);
+    console.log(`¡Intentémoslo de nuevo, ${userName}!`);
     return false;
   }
   console.log('¡Correcto!');
