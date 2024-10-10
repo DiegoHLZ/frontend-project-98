@@ -10,7 +10,6 @@ const isPrime = (num) => {
   return true;
 };
 
-// Función principal del juego
 const brainPrimeGame = () => {
   const userName = greetUser();
   console.log('Responde "yes" si el número dado es primo. De lo contrario, responde "no".');
@@ -20,7 +19,9 @@ const brainPrimeGame = () => {
     const randomNumber = getRandomNumber(100) + 1;
     const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
 
-    const userAnswer = getUserAnswer(`¿Es ${randomNumber} un número primo?`, '', false);
+    console.log(`Pregunta: ${randomNumber}`);
+
+    const userAnswer = getUserAnswer('', '', false);
 
     if (!checkAnswer(userAnswer, correctAnswer, userName)) {
       return;
