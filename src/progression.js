@@ -21,14 +21,14 @@ const brainProgressionGame = () => {
     const start = getRandomNumber(10) + 1;
     const step = getRandomNumber(5) + 1;
     const progression = generateProgression(start, step, progressionLength);
-    
+
     const hiddenIndex = getRandomNumber(progressionLength);
     const correctAnswer = progression[hiddenIndex].toString();
     progression[hiddenIndex] = '..';
 
     // Mostrar la progresión en el formato esperado
     const question = `Pregunta: ${progression.join(' ')}`;
-    
+
     // Obtener la respuesta del usuario
     const userAnswer = getUserAnswer(question, '', true).toString();
 
