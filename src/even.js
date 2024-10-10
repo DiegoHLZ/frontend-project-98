@@ -14,7 +14,7 @@ const brainEvenGame = () => {
 
     console.log(`Pregunta: ${randomNumber}`);
 
-    const userAnswer = getUserAnswer('Es par este número?', randomNumber, false);
+    const userAnswer = getUserAnswer('¿Es par este número?', randomNumber, false);
 
     if (!checkAnswer(userAnswer, correctAnswer, userName)) {
       return;
