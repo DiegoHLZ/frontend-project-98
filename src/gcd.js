@@ -22,7 +22,7 @@ const brainGcdGame = () => {
 
     console.log(`Pregunta: ${num1} ${num2}`);
 
-    const userAnswer = getUserAnswer('', '', true); 
+    const userAnswer = getUserAnswer('', '', true);
 
     if (!checkAnswer(userAnswer, gcd(num1, num2), userName)) {
       return;

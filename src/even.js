@@ -4,7 +4,7 @@ import greetUser from './cli.js';
 const isEven = (num) => num % 2 === 0;
 
 const brainEvenGame = () => {
-  const userName = greetUser(); 
+  const userName = greetUser();
   console.log('Responde "yes" si el número es par, de lo contrario responde "no".');
 
   const maxRounds = 3;

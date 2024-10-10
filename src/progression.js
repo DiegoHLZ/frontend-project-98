@@ -18,19 +18,19 @@ const brainProgressionGame = () => {
   const progressionLength = 10;
 
   for (let round = 0; round < maxRounds; round += 1) {
-    const start = getRandomNumber(10) + 1;  
-    const step = getRandomNumber(5) + 1; 
+    const start = getRandomNumber(10) + 1;
+    const step = getRandomNumber(5) + 1;
     const progression = generateProgression(start, step, progressionLength);
     
-    const hiddenIndex = getRandomNumber(progressionLength);  
-    const correctAnswer = progression[hiddenIndex].toString();  
-    progression[hiddenIndex] = '..';  
+    const hiddenIndex = getRandomNumber(progressionLength);
+    const correctAnswer = progression[hiddenIndex].toString();
+    progression[hiddenIndex] = '..';
 
     // Mostrar la progresión en el formato esperado
     const question = `Pregunta: ${progression.join(' ')}`;
     
     // Obtener la respuesta del usuario
-    const userAnswer = getUserAnswer(question, '', true).toString();  
+    const userAnswer = getUserAnswer(question, '', true).toString();
 
     // Comprobar si la respuesta es correcta
     if (!checkAnswer(userAnswer, correctAnswer, userName)) {

@@ -8,12 +8,12 @@ const brainCalcGame = () => {
   console.log('Resuelve las operaciones matemáticas.');
 
   const maxRounds = 3;
-  const operations = ['+', '-', '*']; 
+  const operations = ['+', '-', '*'];
 
   for (let round = 0; round < maxRounds; round += 1) {
-    const firstRandomNumber = getRandomNumber(10); 
+    const firstRandomNumber = getRandomNumber(10);
     const secondRandomNumber = getRandomNumber(10);
-    const randomOperation = operations[Math.floor(Math.random() * operations.length)]; 
+    const randomOperation = operations[Math.floor(Math.random() * operations.length)];
     
     // Calculamos la respuesta correcta basada en la operación
     let correctAnswer;
