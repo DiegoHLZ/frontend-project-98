@@ -11,8 +11,10 @@ const brainEvenGame = () => {
   for (let round = 0; round < maxRounds; round += 1) {
     const randomNumber = getRandomNumber(100);
     const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
-    
-    const userAnswer = getUserAnswer(`¿Es par este número?`, randomNumber, false);
+
+    console.log(`Pregunta: ${randomNumber}`);
+
+    const userAnswer = getUserAnswer('Es par este número?', randomNumber, false);
 
     if (!checkAnswer(userAnswer, correctAnswer, userName)) {
       return;
