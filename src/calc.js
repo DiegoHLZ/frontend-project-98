@@ -2,6 +2,8 @@ import { getRandomNumber, getUserAnswer, checkAnswer } from './utils.js';
 import greetUser from './cli.js';
 
 const brainCalcGame = () => {
+  console.log('¿Cuál es el resultado de la expresión?');
+  
   const userName = greetUser();
   console.log('Resuelve las operaciones matemáticas.');
 

@@ -8,7 +8,6 @@ export function getRandomNumber(max) {
 // Función para obtener la respuesta del usuario
 export function getUserAnswer(questionMessage, questionValue, isNumberAnswer = false) {
   console.log(questionMessage);
-  console.log(`Pregunta: ${questionValue}`);
   const userAnswer = readlineSync.question('Tu respuesta: ');
   return isNumberAnswer ? Number(userAnswer) : userAnswer;
 }
