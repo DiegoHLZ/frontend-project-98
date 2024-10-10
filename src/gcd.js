@@ -11,7 +11,6 @@ const gcd = (a, b) => {
   return x;
 };
 
-// Función principal del juego
 const brainGcdGame = () => {
   const userName = greetUser();
   console.log('Encuentra el máximo común divisor de los números dados.');
@@ -21,10 +20,11 @@ const brainGcdGame = () => {
     const num1 = getRandomNumber(100) + 1;
     const num2 = getRandomNumber(100) + 1;
 
-    const correctAnswer = gcd(num1, num2);
-    const userAnswer = getUserAnswer(`¿Cuál es el MCD de ${num1} y ${num2}?`, '', true);
+    console.log(`Pregunta: ${num1} ${num2}`);
 
-    if (!checkAnswer(userAnswer, correctAnswer, userName)) {
+    const userAnswer = getUserAnswer('', '', true); 
+
+    if (!checkAnswer(userAnswer, gcd(num1, num2), userName)) {
       return;
     }
   }
