@@ -15,24 +15,24 @@ const brainProgressionGame = () => {
   console.log('¿Qué número falta en la progresión?');
 
   const maxRounds = 3;
-  const progressionLength = 10; // Definir longitud fija de la progresión
+  const progressionLength = 10;
 
   for (let round = 0; round < maxRounds; round += 1) {
-    const start = getRandomNumber(10) + 1; 
-    const step = getRandomNumber(5) + 1;   
+    const start = getRandomNumber(10) + 1;  
+    const step = getRandomNumber(5) + 1; 
     const progression = generateProgression(start, step, progressionLength);
-
-    const hiddenIndex = getRandomNumber(progressionLength); 
+    
+    const hiddenIndex = getRandomNumber(progressionLength);  
     const correctAnswer = progression[hiddenIndex].toString();  
-    progression[hiddenIndex] = '..'; 
+    progression[hiddenIndex] = '..';  
 
-    // Formato de salida que espera la prueba
+    // Mostrar la progresión en el formato esperado
     const question = `Pregunta: ${progression.join(' ')}`;
     
-    // Obtenemos la respuesta del usuario
-    const userAnswer = getUserAnswer(question, '', true); 
+    // Obtener la respuesta del usuario
+    const userAnswer = getUserAnswer(question, '', true).toString();  
 
-    // Comprobamos si la respuesta del usuario es correcta
+    // Comprobar si la respuesta es correcta
     if (!checkAnswer(userAnswer, correctAnswer, userName)) {
       return;
     }
